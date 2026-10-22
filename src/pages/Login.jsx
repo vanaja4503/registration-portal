@@ -23,7 +23,7 @@ function Login() {
     localStorage.setItem("isLoggedIn", "true");
     localStorage.setItem("userEmail", email.trim());
 
-    navigate("/");
+    navigate("/dashboard");
   }
 
   return (
